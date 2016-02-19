@@ -8,12 +8,12 @@ Gem::Specification.new do |spec|
   spec.version       = '0.0.5'
   spec.authors       = ['Chris LoPresto']
   spec.email         = ['chrislopresto@gmail.com']
-  spec.summary       = %q{Guard plugin for scss-lint}
-  spec.description   = %q{A Guard plugin to lint your .scss files using scss-lint}
+  spec.summary       = 'Guard plugin for scss-lint'
+  spec.description   = 'A Guard plugin to lint your .scss files using scss-lint'
   spec.homepage      = 'https://github.com/chrislopresto/guard-scss-lint'
   spec.license       = 'MIT'
 
-  spec.files         = `git ls-files`.split($/)
+  spec.files         = `git ls-files`.split($INPUT_RECORD_SEPARATOR)
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.test_files    = spec.files.grep(%r{^spec/})
   spec.require_path  = 'lib'

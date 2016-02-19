@@ -1,5 +1,9 @@
 # Guard::Scss::Lint
 
+[![Code Climate](https://codeclimate.com/github/K-and-R/guard-scss-lint/badges/gpa.svg)](https://codeclimate.com/github/K-and-R/guard-scss-lint)
+[![Test Coverage](https://codeclimate.com/github/K-and-R/guard-scss-lint/badges/coverage.svg)](https://codeclimate.com/github/K-and-R/guard-scss-lint/coverage)
+[![Issue Count](https://codeclimate.com/github/K-and-R/guard-scss-lint/badges/issue_count.svg)](https://codeclimate.com/github/K-and-R/guard-scss-lint)
+
 A guard to lint your SCSS.
 
 ## Installation
